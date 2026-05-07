@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/isairey/Qasong/main/assets/logo.png" width="140" alt="Qasong Logo" />
+  <img src="https://raw.githubusercontent.com/isairey/AppListeningMusic/main/assets/logo.png" width="140" alt="Qasong Logo" />
 </p>
 
 <h1 align="center">🎵 Qasong</h1>
