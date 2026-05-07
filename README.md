@@ -1,89 +1,149 @@
-# Qasong
+<p align="center">
+  <img src="https://raw.githubusercontent.com/isairey/Qasong/main/assets/logo.png" width="140" alt="Qasong Logo" />
+</p>
 
-Test Workflow
+<h1 align="center">🎵 Qasong</h1>
 
-![Test Workflow](https://github.com/IanWalston/qasong/workflows/Node.js%20CI/badge.svg)
-![Cypress.io](https://img.shields.io/badge/tested%20with-Cypress-04C38E.svg)
+<p align="center">
+  Plataforma moderna de streaming musical basada en YouTube, desarrollada con React y Node.js.
+</p>
 
-React Test Coverage
+<p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/isairey/Qasong/node.js.yml?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/isairey/Qasong?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/isairey/Qasong?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/isairey/Qasong?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tested%20with-Cypress-04C38E?style=for-the-badge" />
+</p>
 
-![React Test Coverage Branches](https://ianwalston.github.io/qasong/frontend/coverage/badge-branches.svg)
+---
 
-![React Test Coverage Functions](https://ianwalston.github.io/qasong/frontend/coverage/badge-functions.svg)
+# 📖 Descripción
 
-![React Test Coverage Lines](https://ianwalston.github.io/qasong/frontend/coverage/badge-lines.svg)
+**Qasong** es una aplicación web de música diseñada para ofrecer una experiencia moderna, rápida y elegante para escuchar canciones desde YouTube mediante una interfaz personalizada.
 
-![React Test Coverage Statements](https://ianwalston.github.io/qasong/frontend/coverage/badge-statements.svg)
+La plataforma combina un frontend en **React** con un backend en **Node.js**, proporcionando una experiencia fluida para búsqueda, reproducción y exploración musical.
 
-## About the Application
+---
 
-Qasong provides an alternate user interface for listening to music from youtube.
+# ✨ Características
 
-This project is currently under development and is scheduled for it's first release on December 20th, 2020.
+- 🎧 Streaming de música desde YouTube
+- 🔍 Búsqueda rápida de canciones y artistas
+- ⚡ Interfaz moderna y responsiva
+- 🌙 Diseño minimalista inspirado en plataformas modernas
+- 🧪 Cobertura de pruebas automatizadas
+- 🔥 Backend API propio
+- 📱 Compatible con dispositivos móviles y escritorio
+- 🚀 Arquitectura frontend + backend separada
+- 🛠️ Desarrollo preparado para escalabilidad
 
-## Links
+---
 
-Join us on Discord
+# 🖼️ Vista previa
 
-[Qasong Team Discord](https://discord.gg/VnpcrtYnrS)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/isairey/Qasong/main/assets/preview.png" width="900"/>
+</p>
 
-Production URL
+---
 
-[Qasong Web App](https://qasong.com)
+# 🛠️ Tecnologías utilizadas
 
-Alternate URLs provided by our cloud host
+<p align="center">
 
-[Alternate URL 1](https://qasong.appspot.com)
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,javascript,html,css,mongodb,npm,git,github,vscode" />
 
-[Alternate URL 2](https://qasong.ew.r.appspot.com/)
+</p>
 
-### Frontend-only development
+| Tecnología | Descripción |
+|------------|-------------|
+| React.js | Frontend interactivo |
+| Node.js | Backend del servidor |
+| Express.js | API REST |
+| Cypress | Testing automatizado |
+| JavaScript | Lenguaje principal |
+| HTML5 & CSS3 | Diseño y estructura |
+| MongoDB | Base de datos |
+| Git & GitHub | Control de versiones |
 
-enter the frontend folder
+---
 
-`cd frontend`
+# 📂 Arquitectura del Proyecto
 
-install dependencies
+```bash
+Qasong/
+├── frontend/          # Aplicación React
+├── backend/           # API y servidor Node.js
+├── public/            # Recursos estáticos
+├── tests/             # Pruebas automatizadas
+├── package.json
+└── README.md
+⚙️ Instalación
+1️⃣ Clonar repositorio
+git clone https://github.com/isairey/Qasong.git
+cd Qasong
+📦 Instalar dependencias
+npm install
+🚀 Ejecutar entorno completo
+npm run dev
 
-`npm i`
+Frontend:
 
-start react frontend
+http://localhost:8080
 
-`npm start`
+Backend:
 
-the frontend should be live in dev mode at localhost:8080
+http://localhost:3016
+💻 Desarrollo Frontend
+cd frontend
+npm install
+npm start
+🔧 Desarrollo Backend
+npm install
+npm run dev:server
+🧪 Testing
 
-### Backend-only development
+Ejecutar pruebas automatizadas:
 
-install dependencies
+npm test
 
-`npm i`
+Pruebas E2E con Cypress:
 
-start the server in dev mode
+npx cypress open
+📊 Cobertura de pruebas
+<p align="center"> <img src="https://img.shields.io/badge/Branches-Covered-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Functions-Covered-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Lines-Covered-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Statements-Covered-success?style=for-the-badge" /> </p>
+🌐 Producción
+Aplicación principal
+https://qasong.com
+URLs alternativas
+https://qasong.appspot.com
+https://qasong.ew.r.appspot.com/
+📌 Roadmap
+✅ Streaming online
+✅ Backend API
+✅ Testing automatizado
+🔄 Playlists personalizadas
+🔄 Sistema de favoritos
+🔄 Descargas offline
+🔄 Autenticación de usuarios
+🔄 Aplicación móvil
+🔄 Recomendaciones inteligentes
+🤝 Contribuciones
 
-`npm run dev:server`
+Las contribuciones son bienvenidas.
 
-the server will be available at localhost:3016
+Haz un fork del proyecto
+Crea una rama
+git checkout -b feature/nueva-funcion
+Realiza tus cambios
+Haz commit
+git commit -m "feat: nueva función"
+Haz push
+git push origin feature/nueva-funcion
+Abre un Pull Request 🚀
+👨‍💻 Autor
+<p align="center"> <img src="https://github.com/isairey.png" width="120" style="border-radius:50%" /> </p> <h3 align="center">Isai Reyes</h3> <p align="center"> Desarrollador Full Stack apasionado por el desarrollo de aplicaciones multimedia, streaming y experiencias modernas. </p>
+📜 Licencia
 
-this will only enable the api. if you want to see the frontend served by the server, you'll need to compile the frontend
-
-`npm run build`
-
-### Full development environment
-
-install all packages and start both front and backend in dev mode
-
-`npm run dev`
-
-the frontend should be live at localhost:8080
-the backend will be available at localhost:3016
-
-note: the frontend is currently hardwired to communicate with the production api.
-To see your backend changes in the frontend, you'll need to change the url in functions.js.
-you should find the development url there commented out.
-
-## CONTRIBUTING
-
-please make a pull request to the `develop` branch of this repo
-
-for assistance working with this repo, contact us on discord [discord](https://discord.gg/b2gEwT8) or ping a contributer in an Issue.
+Este proyecto está bajo la licencia MIT License.
