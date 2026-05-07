@@ -37,14 +37,6 @@ La plataforma combina un frontend en **React** con un backend en **Node.js**, pr
 
 ---
 
-# 🖼️ Vista previa
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/isairey/Qasong/main/assets/preview.png" width="900"/>
-</p>
-
----
-
 # 🛠️ Tecnologías utilizadas
 
 <p align="center">
