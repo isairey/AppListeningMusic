@@ -83,8 +83,8 @@ Qasong/
 
 ## 1️⃣ Clonar repositorio
 ```
-git clone https://github.com/isairey/Qasong.git
-cd Qasong
+git clone https://github.com/isairey/AppListeningMusic.git
+cd AppListeningMusic
 ```
 ## 📦 Instalar dependencias
 ```
