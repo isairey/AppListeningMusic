@@ -1,0 +1,70 @@
+{
+  "name": "qasong",
+  "version": "0.7.0",
+  "description": "serve qasong-frontend to clients, and provide video search functionality from youtube data api",
+  "homepage": "./",
+  "main": "./server/index.js",
+  "scripts": {
+    "build": "cd frontend && npm run build",
+    "cy:run": "npx cypress run",
+    "deploy": "npm run lint:fix && npm run build && npm run test && gcloud app deploy --project qasong --quiet",
+    "dev": "npm i && concurrently --kill-others \"npm run dev:frontend\" \"npm run dev:server\"",
+    "dev:frontend": "cd frontend && npm i && npm start",
+    "dev:server": "npm i && nodemon ./server/index.js",
+    "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\" && cd frontend && npm run format",
+    "install:frontend": "cd frontend && npm i",
+    "start": "node ./server/index.js",
+    "lint": "eslint . && cd frontend && npm run lint",
+    "lint:fix": "eslint . --fix && cd frontend && eslint . --fix",
+    "test": "npm run test:frontend && npm run test:server",
+    "test:frontend": "cd frontend && npm run test",
+    "test:server": "start-server-and-test start http://localhost:3016 cy:run"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IanWalston/qasong.git"
+  },
+  "author": {
+    "name": "Qasong Team",
+    "email": "ikwalston@comcast.net",
+    "url": "https://discord.gg/VnpcrtYnrS"
+  },
+  "bugs": {
+    "url": "https://github.com/IanWalston/qasong/issues",
+    "email": "admin@qasong.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "cypress-dotenv": "^1.2.2",
+    "eslint": "^7.14.0",
+    "husky": "^5.0.9",
+    "lint-staged": "^10.4.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.0",
+    "start-server-and-test": "^1.11.6"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "billboard-top-100": "^2.5.9",
+    "browser-detect": "^0.2.28",
+    "cors": "^2.8.5",
+    "cypress": "^6.1.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.1.3",
+    "immutability-helper": "^3.1.1",
+    "nocache": "^2.1.0",
+    "rootpath": "^0.1.2",
+    "uuid": "^8.3.0",
+    "yt-search": "^2.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format && npm run lint:fix"
+    }
+  }
+}
