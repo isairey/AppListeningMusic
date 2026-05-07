@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/isairey/AppListeningMusic/main/assets/logo.png" width="140" alt="Qasong Logo" />
-</p>
 
 <h1 align="center">🎵 Qasong</h1>
 
@@ -79,71 +76,117 @@ Qasong/
 ├── tests/             # Pruebas automatizadas
 ├── package.json
 └── README.md
-⚙️ Instalación
-1️⃣ Clonar repositorio
+```
+---
+
+# ⚙️ Instalación
+
+## 1️⃣ Clonar repositorio
+```
 git clone https://github.com/isairey/Qasong.git
 cd Qasong
-📦 Instalar dependencias
+```
+## 📦 Instalar dependencias
+```
 npm install
-🚀 Ejecutar entorno completo
+```
+## 🚀 Ejecutar entorno completo
+```
 npm run dev
+```
 
-Frontend:
-
+## Frontend:
+```
 http://localhost:8080
-
-Backend:
-
+```
+## Backend:
+```
 http://localhost:3016
-💻 Desarrollo Frontend
+```
+---
+
+# 💻 Desarrollo Frontend
+```
 cd frontend
 npm install
 npm start
-🔧 Desarrollo Backend
+```
+---
+
+# 🔧 Desarrollo Backend
+```
 npm install
 npm run dev:server
-🧪 Testing
+```
+---
+
+# 🧪 Testing
 
 Ejecutar pruebas automatizadas:
-
+```
 npm test
-
+```
 Pruebas E2E con Cypress:
-
+```
 npx cypress open
-📊 Cobertura de pruebas
+```
+---
+
+# 📊 Cobertura de pruebas
+
 <p align="center"> <img src="https://img.shields.io/badge/Branches-Covered-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Functions-Covered-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Lines-Covered-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Statements-Covered-success?style=for-the-badge" /> </p>
-🌐 Producción
-Aplicación principal
+
+---
+
+# 🌐 Producción
+
+## Aplicación principal
+```
 https://qasong.com
-URLs alternativas
+```
+## URLs alternativas
+```
 https://qasong.appspot.com
 https://qasong.ew.r.appspot.com/
-📌 Roadmap
-✅ Streaming online
-✅ Backend API
-✅ Testing automatizado
-🔄 Playlists personalizadas
-🔄 Sistema de favoritos
-🔄 Descargas offline
-🔄 Autenticación de usuarios
-🔄 Aplicación móvil
-🔄 Recomendaciones inteligentes
-🤝 Contribuciones
+```
+---
+
+# 📌 Roadmap
+
+- ✅ Streaming online
+- ✅ Backend API
+- ✅ Testing automatizado
+- 🔄 Playlists personalizadas
+- 🔄 Sistema de favoritos
+- 🔄 Descargas offline
+- 🔄 Autenticación de usuarios
+- 🔄 Aplicación móvil
+- 🔄 Recomendaciones inteligentes
+
+---
+
+# 🤝 Contribuciones
 
 Las contribuciones son bienvenidas.
 
-Haz un fork del proyecto
-Crea una rama
-git checkout -b feature/nueva-funcion
-Realiza tus cambios
-Haz commit
-git commit -m "feat: nueva función"
-Haz push
-git push origin feature/nueva-funcion
-Abre un Pull Request 🚀
-👨‍💻 Autor
+- Haz un fork del proyecto
+- Crea una rama
+- git checkout -b feature/nueva-funcion
+- Realiza tus cambios
+- Haz commit
+- git commit -m "feat: nueva función"
+- Haz push
+- git push origin feature/nueva-funcion
+- Abre un Pull Request 🚀
+
+---
+
+# 👨‍💻 Autor
+
 <p align="center"> <img src="https://github.com/isairey.png" width="120" style="border-radius:50%" /> </p> <h3 align="center">Isai Reyes</h3> <p align="center"> Desarrollador Full Stack apasionado por el desarrollo de aplicaciones multimedia, streaming y experiencias modernas. </p>
-📜 Licencia
+
+---
+
+# 📜 Licencia
 
 Este proyecto está bajo la licencia MIT License.
